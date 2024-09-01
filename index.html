@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeFest 2024</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title ">BikeFest 2024</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                        <i class="bi bi-speedometer me-1"></i>Sobre o evento
+                    </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#programacao">
+                        <i class="bi bi-calendar-date me-1"></i>Programação
+                    </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#ticket">
+                        <i class="bi bi-ticket-perforated me-1"></i>Ingressos
+                    </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                        <i class="bi bi-card-text me-1"></i>Contato
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <section id="sobre" class="pb-3">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="images/carousel/chopper-4631240_960_720.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/choppers-4863505_1280.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/harley-3849064_960_720.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/harley-5091673_1280.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/harley-597613_1280.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/harley-davidson-3563342_1280.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/harley-davidson-7366079_1280.jpg" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="images/carousel/motor-4962178_1280.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="7"></button>
+                    </div>
+                </div>
+
+                <div class="pb-5 pt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./images/sobre-evento/harley-7485012_960_720.jpg" class="d-block w-100  rounded" alt="FOTO MOTOS AO AR LIVRE">
+                            </div>
+                            <div class="col-lg-7">
+                                <h2 class="section-title text-center">Sobre o evento</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quidem, eos qui nisi corrupti iure quisquam sequi repudiandae, quis, ea perferendis deserunt officia ut aperiam aliquam quos nemo molestiae incidunt?</p>
+                                <p><strong>Data:</strong> 31/10/2024 a 02/11/2024</p>
+                                <p><strong>Horário:</strong> 09:00h ás 17:00h</p>
+                                <p><strong>Local:</strong> Circuito das Acelerações, Rodovia dos Motoqueiros, 7890
+                                    Zona de Aventuras, Cidade dos Motoqueiros, Estado da Velocidade, Brasil
+                                    CEP: 98765-432</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="programacao" class="pb-3 pt-2">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5 pt-5 pb-5">Programação</h2>
+                    </div>
+                    <div id="nav-programacao-content">
+                        <nav class="nav nav-pills nav-programacao">
+                            <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#aba1" >Dia 1 - 31/10/2024</button>
+                            <button type="button" class="nav-link " data-bs-toggle="tab" data-bs-target="#aba2" >Dia 2 - 01/11/2024</button>
+                            <button type="button" class="nav-link " data-bs-toggle="tab" data-bs-target="#aba3" >Dia 3 - 02/11/2024</button>
+                        </nav>
+                        <div class="tab-content">
+                            <div class="tab-pane active mt-5" id="aba1">
+                                <div class="row">
+                                    
+                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                        <div class="card rounded">
+                                            <div class="card-body ">
+                                                <h4 class="card-title mb-4">Abertura do Festival e Boas-Vindas</h4>
+                                                <h5 class="card-subtitle mb-4">09:00 - 10:00</h5>
+                                                <p class="card-text">Cerimônia de abertura com uma apresentação especial e desfile de motocicletas.</p>
+                                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card rounded">
+                                        <div class="card-body ">
+                                            <h4 class="card-title mb-4">Painel 1: “A Evolução das Motocicletas: Do Clássico ao Moderno”</h4>
+                                            <h5 class="card-subtitle mb-4">10:15 - 11:15</h5>
+                                            <p class="card-text">Exploração da evolução dos modelos de motocicletas ao longo das décadas.</p>
+                                            <p><strong>Palestrantes:</strong> Historiadores de motos e colecionadores.</p>
+                                            <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <div class="card rounded">
+                                    <div class="card-body ">
+                                        <h4 class="card-title mb-4">Painel 2: “Design e Engenharia: O Que Torna uma Moto Única”</h4>
+                                        <h5 class="card-subtitle mb-4">11:30 - 12:30</h5>
+                                        <p class="card-text">Discussão sobre os aspectos técnicos e de design que definem motocicletas icônicas. </p>
+                                            <p><strong>Palestrantes:</strong> Designers de motocicletas e engenheiros.
+                                            </p>
+                                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card rounded">
+                                <div class="card-body ">
+                                    <h4 class="card-title mb-4">Almoço e Exibição de Motocicletas Clássicas</h4>
+                                    <h5 class="card-subtitle mb-4">12:30 - 13:30</h5>
+                                    <p class="card-text">Exposição de motocicletas antigas e clássicas com oportunidades para interagir com colecionadores.</p>
+                                    <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card rounded">
+                            <div class="card-body ">
+                                <h4 class="card-title mb-4">Painel 3: “O Impacto da Cultura das Motocicletas na Moda e Estilo”</h4>
+                                <h5 class="card-subtitle mb-4">13:30 - 14:30</h5>
+                                <p class="card-text">Como a cultura das motocicletas influencia a moda e o estilo.</p>
+                                    <p><strong>Palestrantes:</strong> Designers de roupas para motociclistas e especialistas em moda</p>
+                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card rounded">
+                        <div class="card-body ">
+                            <h4 class="card-title mb-4">Painel 4: “Segurança e Inovação: Tecnologias que Salvam Vidas”
+                            </h4>
+                            <h5 class="card-subtitle mb-4">14:45 - 15:45</h5>
+                            <p class="card-text">Avanços em tecnologias de segurança para motociclistas. </p>
+                            <p><strong>Palestrantes:</strong> Especialistas em segurança de motocicletas e fabricantes de equipamentos.</p>
+                            <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card rounded">
+                    <div class="card-body ">
+                        <h4 class="card-title mb-4">Workshop: “Manutenção Básica de Motocicletas”</h4>
+                        <h5 class="card-subtitle mb-4">16:00 - 17:00</h5>
+                        <p class="card-text">Sessão prática sobre cuidados e manutenção essenciais para motociclistas. </p>
+                        <p><strong>Facilitador:</strong> Mecânico especializado em motocicletas.</p>
+                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                    </div>
+            </div>
+        </div> 
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane mt-5" id="aba2">
+                                <div class="row">
+                                    
+                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                        <div class="card rounded">
+                                            <div class="card-body ">
+                                                <h4 class="card-title mb-4">Palestra Principal: “A Arte da Pilotagem: Técnicas e Estratégias”</h4>
+                                                <h5 class="card-subtitle mb-4">09:00 - 10:00</h5>
+                                                <p class="card-text">A importância da técnica e da estratégia na pilotagem de motocicletas. </p>
+                                                <p><strong>Palestrante:</strong> Piloto profissional.</p>
+                                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card rounded">
+                                        <div class="card-body ">
+                                            <h4 class="card-title mb-4">Painel 5: “Rali e Corridas: Desafios e Triumphos”</h4>
+                                            <h5 class="card-subtitle mb-4">10:15 - 11:15</h5>
+                                            <p class="card-text">Discussão sobre os desafios e sucessos em competições de rali e corridas.</p>
+                                            <p><strong>Palestrantes:</strong>Pilotos de rali e corredores profissionais.</p>
+                                            <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <div class="card rounded">
+                                    <div class="card-body ">
+                                        <h4 class="card-title mb-4">Painel 6: “Customização e Personalização de Motocicletas”</h4>
+                                        <h5 class="card-subtitle mb-4">11:30 - 12:30</h5>
+                                        <p class="card-text">Como personalizar e customizar motocicletas para refletir o estilo pessoal.  </p>
+                                            <p><strong>Palestrantes:</strong>  Especialistas em customização e artistas de motos.
+                                            </p>
+                                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card rounded">
+                                <div class="card-body ">
+                                    <h4 class="card-title mb-4">Almoço e Exibição de Stunt Riding</h4>
+                                    <h5 class="card-subtitle mb-4">12:30 - 13:30</h5>
+                                    <p class="card-text">Demonstração de habilidades de pilotagem e acrobacias.</p>
+                                    <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card rounded">
+                            <div class="card-body ">
+                                <h4 class="card-title mb-4">Painel 7: “O Futuro das Motocicletas: Tendências e Inovações”</h4>
+                                <h5 class="card-subtitle mb-4">13:30 - 14:30</h5>
+                                <p class="card-text">Exploração das próximas tendências e inovações no mundo das motocicletas.</p>
+                                    <p><strong>Palestrantes:</strong>  Fabricantes e especialistas em tecnologia de motos.</p>
+                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card rounded">
+                        <div class="card-body ">
+                            <h4 class="card-title mb-4">Painel 8: “Comunidade e Cultura das Motocicletas: Construindo Conexões”</h4>
+                            <h5 class="card-subtitle mb-4">14:45 - 15:45</h5>
+                            <p class="card-text">A importância da comunidade e das redes sociais na cultura das motocicletas.</p>
+                            <p><strong>Palestrantes:</strong>Líderes de clubes de motos e influenciadores.</p>
+                            <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card rounded">
+                    <div class="card-body ">
+                        <h4 class="card-title mb-4">Competição: Customização de Motos</h4>
+                        <h5 class="card-subtitle mb-4">16:00 - 17:00</h5>
+                        <p class="card-text">Concurso de customização com prêmios para as motos mais criativas e bem feitas.</p>
+                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                    </div>
+            </div>
+        </div> 
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane mt-5" id="aba3">
+                                <div class="row">
+                                    
+                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                        <div class="card rounded">
+                                            <div class="card-body ">
+                                                <h4 class="card-title mb-4">Palestra: “Motociclismo e Turismo: Explorando o Mundo sobre Duas Rodas”</h4>
+                                                <h5 class="card-subtitle mb-4">09:00 - 10:00</h5>
+                                                <p class="card-text">Como o motociclismo pode ser uma forma incrível de turismo e exploração.</p>
+                                                <p><strong>Palestrante:</strong> Viajante e blogueiro de motociclismo. </p>
+                                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card rounded">
+                                        <div class="card-body ">
+                                            <h4 class="card-title mb-4">Painel 9: “A Importância dos Clubes de Motociclismo e Encontros Sociais”</h4>
+                                            <h5 class="card-subtitle mb-4">10:15 - 11:15</h5>
+                                            <p class="card-text">O papel dos clubes e encontros na promoção da cultura das motocicletas.</p>
+                                            <p><strong>Palestrantes:</strong>Líderes de clubes e organizadores de eventos.</p>
+                                            <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <div class="card rounded">
+                                    <div class="card-body ">
+                                        <h4 class="card-title mb-4">Painel 10: “Motociclismo e Sustentabilidade: Desafios e Oportunidades”</h4>
+                                        <h5 class="card-subtitle mb-4">11:30 - 12:30</h5>
+                                        <p class="card-text">Discussão sobre como a indústria de motocicletas está abordando questões de sustentabilidade.</p>
+                                            <p><strong>Palestrantes:</strong> Especialistas em tecnologia verde e fabricantes de motos sustentáveis.
+                                            </p>
+                                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card rounded">
+                                <div class="card-body ">
+                                    <h4 class="card-title mb-4">Almoço e Encontro de Clubes de Motociclistas</h4>
+                                    <h5 class="card-subtitle mb-4">12:30 - 13:30</h5>
+                                    <p class="card-text">Oportunidade para conhecer e socializar com outros entusiastas e clubes de motocicletas.</p>
+                                    <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card rounded">
+                            <div class="card-body ">
+                                <h4 class="card-title mb-4">Parada e Passeio: “Desfile de Motocicletas e Passeio pela Cidade”</h4>
+                                <h5 class="card-subtitle mb-4">13:30 - 16:00</h5>
+                                <p class="card-text">Um desfile de motocicletas seguido por um passeio pela cidade, mostrando a diversidade e o estilo dos participantes.</p>
+                                <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                            </div>
+                    </div>
+                </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card rounded">
+                    <div class="card-body ">
+                        <h4 class="card-title mb-4">Encerramento e Agradecimentos</h4>
+                        <h5 class="card-subtitle mb-4">16:00 - 17:00</h5>
+                        <p class="card-text">Resumo dos destaques do festival e agradecimentos aos participantes e patrocinadores.</p>
+                        <a href="#" class="btn btn-dark-custom">Saiba mais</a>
+                    </div>
+            </div>
+        </div> 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+            </section>
+
+            <section id="ticket" class="pb-3 pt-2">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">Ingressos</h2>
+                    </div>
+                    <div class="row ticket-rules">
+                        <div class="col-md-4">
+                            <img src="./images/ingressos/old-used-brown-torn-ticket-stub-isolated.jpg" class="d-block w-100 rounded mb-2" alt="">
+                            <h3 class="text-center">Ingresso Dia Único</h3>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod repellat cupiditate expedita dolores illum nostrum fugit. Quam, obcaecati laborum cumque ea voluptate voluptas, a laudantium eos non tempore doloribus molestias!</p>
+                            <button type="button" class="btn-dark-custom rounded">Comprar</button>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./images/ingressos/two-tickets-blue-front-view-isolated-white.jpg" class="d-block w-100 rounded mb-2" alt="">
+                            <h3 class="text-center">Ingresso Três Dias</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere ab sapiente amet vero aut doloribus ea nesciunt autem, quam eos nisi, ut velit libero ducimus? Quia, praesentium? Laudantium, et.</p>
+                            <button type="button" class="btn-dark-custom rounded">Comprar</button>
+                        </div>    
+                        <div class="col-md-4">
+                            <img src="./images/ingressos/three-orange-tickets-isolated-white.jpg" class="d-block w-100 rounded mb-2" alt="">
+                            <h3 class="text-center"> Passe VIP Total</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore praesentium aspernatur, aperiam ducimus quas fuga voluptatem iure quis ut molestias tempore quae rem aut id, dolores quod libero odio pariatur?</p>
+                            <button type="button" class="btn-dark-custom rounded">Comprar</button>
+                        </div>                
+                    </div>
+                </div>
+            </section>
+
+            <section id="fale-conosco">
+                <h2 class="section-title text-center mt-5 mb-5">Entre em contato</h2>
+                <div class="container formulario">    
+                    <form>
+                            <div>
+                                <label class="form-label pb-1 pt-1"   for="nome">Nome:</label>
+                                <input class="form-control" type="text" id="nome" name="nome">
+                            </div>
+                            <div>
+                            <label class="form-label pb-1 pt-1" for="telefone">Telefone:</label>
+                            <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div>
+                            <label class="form-label pb-1 pt-1" for="email">Email:</label>
+                            <input class="form-control" type="email" id="email" name="email">
+                            </div>
+                            <div>
+                            <label class="form-label pb-1 pt-1" for="mensagem">Mensagem:</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="aceito-termos">Li e concordo com os termos e condições de uso</label>
+                                <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                        
+        
+        
+                        <button class="btn btn-dark-custom" type="submit">Enviar</button>
+                    </form>
+                    </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="container container-flex">
+                <p> 2024 &copy; BikeFest - Todos os direitos reservados </p>
+            </div>
+            </footer>
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+
+    <script src="./js/main.js"> </script>
+
+</body>
+</html>
